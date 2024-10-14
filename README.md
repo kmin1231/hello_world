@@ -77,6 +77,40 @@ $ ./hello_go
 
 <br>
 
+> <h2>Rust</h2>
+```
+$ rustc --version
+rustc 1.81.0 (eeb90cda1 2024-09-04)
+
+$ cargo --version
+cargo 1.81.0 (2dbb1af80 2024-08-20)
+```
+
+```
+$ rustc hello_rust.rs
+```
+
+```
+$ ./hello_rust
+```
+
+<br>
+
+> <h2>Ruby</h2>
+```
+$ ruby --version
+ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [x86_64-linux]
+
+$ rbenv --version
+rbenv 1.3.0-4-gc335ab8
+```
+
+```
+$ ruby hello_ruby.rb
+```
+
+<br>
+
 > <h2>Swift</h2>
 ```
 $ swift --version
@@ -92,3 +126,4 @@ $ swift hello_swift.swift
 
 <br><br>
 > making changes...
+<br><br>
