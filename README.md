@@ -106,7 +106,7 @@ $ tsc -v
 Version 5.6.2
 ```
 
-<h4>(A) Run with `npx` `ts-node`</h4>
+<h4>(A) Run with <code>npx</code> <code>ts-node</code></h4>
 
 ```
 $ npx ts-node hello_typescript_ts.ts
@@ -118,7 +118,7 @@ $ curl localhost:3000
 Hello, world!
 ```
 
-<h4>(B) Run with `ts-node`</h4>
+<h4>(B) Run with <code>ts-node</code></h4>
 
 ```
 $ npm install -D ts-node
