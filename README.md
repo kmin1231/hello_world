@@ -49,6 +49,137 @@ $ ./hello_c++
 
 <br>
 
+> <h2>JavaScript</h2>
+```
+$ node -v
+v20.12.2
+
+$ npm -v
+10.5.0
+
+$ nvm -v
+0.40.1
+
+```
+
+```
+$ node hello_javascript.js
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<br>
+
+><h4>Express</h4>
+```
+$ npm install express
+```
+
+```
+$ npm ls | grep express
+├── express@4.21.0
+```
+
+```
+$ node hello_express.js
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<br>
+
+> <h2>TypeScript</h2>
+```
+$ npm install typescript
+```
+
+```
+$ tsc -v
+Version 5.6.2
+```
+
+<h4>(A) Run with `npx` `ts-node`</h4>
+
+```
+$ npx ts-node hello_typescript_ts.ts
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<h4>(B) Run with `ts-node`</h4>
+
+```
+$ npm install -D ts-node
+```
+
+```
+$ npm ls | grep ts-node
+├── ts-node@10.9.2
+```
+
+```
+$ ts-node hello_typescript_ts.ts
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<h4>(C) Transpile TypeScript to JavaScript</h4>
+
+```
+$ tsc hello_typescript_ts.ts
+```
+
+```
+$ node hello_typescript_ts.js
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<br>
+
+><h4>Express</h4>
+```
+$ npm install -D @types/express
+```
+
+```
+$ npm ls | grep express
+├── @types/express@5.0.0
+├── express@4.21.0
+```
+
+```
+$ ts-node hello_express_ts.ts
+Server running at http://localhost:3000
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
+<br>
+
 > <h2>Python</h2>
 ```
 $ python --version
@@ -126,4 +257,5 @@ $ swift hello_swift.swift
 
 <br><br>
 > making changes...
-<br><br>
+
+<br>
