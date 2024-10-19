@@ -227,6 +227,20 @@ $ ./hello_rust
 
 <br>
 
+> <h2>R</h2>
+```
+$ R --version
+R version 4.1.2 (2021-11-01) -- "Bird Hippie"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+```
+
+```
+$ Rscript hello_R.R
+```
+
+<br>
+
 > <h2>Ruby</h2>
 ```
 $ ruby --version
