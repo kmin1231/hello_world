@@ -189,6 +189,17 @@ Python 3.11.7
 $ python hello_python.py
 ```
 
+><h4>Flask</h4>
+```
+$ pip install flask
+$ flask run
+```
+
+```
+$ curl localhost:3000
+Hello, world!
+```
+
 <br>
 
 > <h2>Go</h2>
