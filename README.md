@@ -196,7 +196,7 @@ $ flask run
 ```
 
 ```
-$ curl localhost:3000
+$ curl localhost:5000
 Hello, world!
 ```
 
