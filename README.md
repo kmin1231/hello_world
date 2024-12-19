@@ -207,6 +207,38 @@ $ ./hello_go
 
 <br>
 
+> <h2>Kotlin</h2>
+```
+$ kotlin -version
+Kotlin version 2.1.0-release-394 (JRE 21.0.5+11-Ubuntu-1ubuntu122.04)
+
+$ kotlinc -version
+info: kotlinc-jvm 2.1.0 (JRE 21.0.5+11-Ubuntu-1ubuntu122.04)
+
+$ java -version
+openjdk version "21.0.5" 2024-10-15
+OpenJDK Runtime Environment (build 21.0.5+11-Ubuntu-1ubuntu122.04)
+OpenJDK 64-Bit Server VM (build 21.0.5+11-Ubuntu-1ubuntu122.04, mixed mode, sharing)
+```
+
+```
+$ kotlinc hello_kotlin.kt -include-runtime -d hello_kotlin.jar
+```
+
+```
+$ java -jar hello_kotlin.jar
+```
+
+><h4>Run a Kotlin script file</h4>
+```
+$ kotlin hello_kotlin.kts
+
+$ kotlinc -script hello_kotlin.kts
+```
+
+<br>
+
+
 > <h2>Rust</h2>
 ```
 $ rustc --version
