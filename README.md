@@ -218,6 +218,27 @@ $ ./hello_go
 
 <br>
 
+> <h2>Java</h2>
+```
+$ java -version
+openjdk version "21.0.6" 2025-01-21
+OpenJDK Runtime Environment (build 21.0.6+7-Ubuntu-122.04.1)
+OpenJDK 64-Bit Server VM (build 21.0.6+7-Ubuntu-122.04.1, mixed mode, sharing)
+
+$ javac -version
+javac 21.0.6
+```
+
+```
+$ javac HelloJava.java
+```
+
+```
+$ java HelloJava
+```
+
+<br>
+
 > <h2>Kotlin</h2>
 ```
 $ kotlin -version
