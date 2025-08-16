@@ -319,6 +319,20 @@ $ ruby hello_ruby.rb
 
 <br>
 
+> <h2>Elixir</h2>
+```
+$ elixir --version
+Erlang/OTP 24 [erts-12.2.1] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit]
+
+Elixir 1.12.2 (compiled with Erlang/OTP 24)
+```
+
+```
+$ elixir hello_elixir.exs
+```
+
+<br>
+
 > <h2>Swift</h2>
 ```
 $ swift --version
