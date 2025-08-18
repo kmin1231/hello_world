@@ -344,7 +344,17 @@ Target: x86_64-unknown-linux-gnu
 $ swift hello_swift.swift
 ```
 
+<br>
 
+> <h2>Julia</h2>
+```
+$ julia --version
+julia version 1.11.6
+```
+
+```
+$ julia hello_julia.jl
+```
 
 <br><br>
 > making changes...
