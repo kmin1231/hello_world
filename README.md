@@ -333,6 +333,21 @@ $ elixir hello_elixir.exs
 
 <br>
 
+> <h2>Crystal</h2>
+```
+$ crystal --version
+Crystal 1.17.0 [d2c705b53] (2025-07-16)
+
+LLVM: 18.1.8
+Default target: x86_64-unknown-linux-gnu
+```
+
+```
+$ crystal run hello_crystal.cr
+```
+
+<br>
+
 > <h2>Swift</h2>
 ```
 $ swift --version
